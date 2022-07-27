@@ -1,0 +1,189 @@
+input[type=text]:not(.browser-default):disabled{
+	color: rgb(0, 0, 0);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.42);
+    width: 50%;
+    font-size: 20px;
+	}
+	
+	
+
+	.fuente-letra{
+		font-family: 'Quicksand', sans-serif;
+	}
+
+
+	.compra-agrega button{
+		padding: 0px;
+		
+	}
+
+	
+
+	/*informacion de productos*/
+	.contenedor-info-producto figure.visor img{
+		display: none;
+		min-width: 290px;
+	}
+	.contenedor-info-producto figure.visor img:first-child{
+		display: block;
+	}
+	.flexslider img{
+		width: 80px;
+		height: 80px;
+	}
+	
+	.slides{
+		justify-content: center
+	}
+
+	.contenedor-info-producto .info {
+		border-left:  solid 1px #e4e0e0c7; background-color: #eafbfb0a; border-radius: 1px;padding-left: 40px;
+	}
+	.calificacion-slider{
+		color:#4fbde1;
+	}
+
+	.precio-color span{
+		border-radius: 5px;
+	}
+
+
+
+		@media(max-width: 600px){
+			input[type=text]:not(.browser-default):disabled{
+		    	width: 60%;
+		    	font-size: 15px;
+			}
+	      	.contenedor-info-producto figure {
+	      		padding-right: ;
+			    margin-top: 1em;
+			    margin-right: 0px;
+			    margin-bottom: 1em;
+			    margin-left: 0px;
+			}
+			.contenedor-info-producto figure.visor img:first-child{
+				padding-left: 40px;
+				padding-right: 35px;
+				min-width: 200px;
+				min-width: 280px;
+				max-height: 350px;
+			}
+
+			.contenedor-info-producto figure.visor img{
+				min-width: 290px;
+				max-height: 350px;
+				justify-content: center;
+			}
+
+			.info .row,.info .col{
+				margin-bottom: 0px;
+				margin-top: 5px;
+
+			}
+			.contenedor-info-producto .visor-img .flexslider {
+			    margin-right:60px; 
+			}
+			
+		}
+
+	    @media(min-width:  601px) and  (max-width:  992px) {
+	    	input[type=text]:not(.browser-default):disabled{
+		    	width: 50%;
+		    	font-size: 17px;
+			}
+	      	.contenedor-info-producto figure.visor img{
+				min-width: 200px;
+				max-width: 300px;
+				max-height: 320px;
+				
+			}
+
+			.contenedor-info-producto .visor-img .flexslider {
+	      		padding-right: ;
+			    margin-top: 1em;
+			    margin-right: ;
+			    margin-bottom: 1em;
+			    margin-left: 80px;  
+			} 
+			.contenedor-info-producto figure {
+	      		padding-right: ;
+			    margin-top: 1em;
+			    margin-right: 0px;
+			    margin-bottom: 1em;
+			    margin-left: 0px;
+			    justify-content: center;
+			}
+			.contenedor-info-producto figure.visor img:first-child{
+				padding-left: 20px;
+				min-width: 250px;
+				max-width: 300px;
+			}
+
+			.contenedor-info-producto .info {
+				padding-left:;
+			}
+
+			.calificacion-slider{
+				margin-left: 40px;
+			}
+	    }
+
+	    @media(min-width:  993px) and  (max-width:  1200px) {
+	    	input[type=text]:not(.browser-default):disabled{
+		    	width: 50%;
+			}
+	    	.contenedor-info-producto figure.visor img{
+				min-width: 250px;
+				max-width: 355px;
+				max-height: 370px;
+				justify-content: center;
+			}
+
+			.contenedor-info-producto .visor-img .flexslider {
+	      		padding-right: ;
+			    margin-top: 1em;
+			    margin-right: ;
+			    margin-bottom: 1em;
+			    margin-left: 60px;
+			   
+			} 
+			.contenedor-info-producto figure {
+	      		padding-right: ;
+			    margin-top: 1em;
+			    margin-right: 20px;
+			    margin-bottom: 1em;
+			    margin-left: 20px;
+			}   
+	    }
+
+      	@media(min-width: 1201px) {
+      		input[type=text]:not(.browser-default){
+		   		font-size: 20px;
+			}
+      		.contenedor-info-producto figure.visor img{
+				min-width: 290px;
+				max-width: 450px;
+				max-height: 350px;
+				justify-content: center;
+			}
+
+			.contenedor-info-producto .visor-img .flexslider {
+	      		padding-right: ;
+			    margin-top: 1em;
+			    margin-right: ;
+			    margin-bottom: 1em;
+			    margin-left: 60px;
+			   
+			}
+			.contenedor-info-producto{
+				font-size: 19px;
+			}
+			.contenedor-info-producto .precio-oficial{
+				font-size: 19px;
+				text-decoration: line-through;
+				color:#8f8e85;
+			}
+			.contenedor-info-producto .precio-oferta{
+				font-size: 22px;
+			}
+		}

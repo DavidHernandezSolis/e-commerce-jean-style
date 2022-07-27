@@ -1,0 +1,13 @@
+#Impedir que se pueda ver el listado de contenidos de un directorio
+
+Options All -Indexes
+
+#url Amigables
+
+RewriteEngine On
+
+# pra agregar la Ñ o ñ se coloca Ññ, Para agregar espacios en blanco \s. 
+
+RewriteRule ^([-a-zA-Z0-9/Ññ$\s\-áéíóúÁÉÍÓÚñÑ==]+)$ index.php?ruta=$1
+
+
