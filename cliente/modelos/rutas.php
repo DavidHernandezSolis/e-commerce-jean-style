@@ -6,7 +6,7 @@ class Ruta{
 	}
 
 	public function controlRutaAdmin(){
-		return "http://localhost/ProyectoE-commerceEquipo1\cliente\administrador/";
+		return "http://localhost/ProyectoE-commerceEquipo1/cliente/administrador/";
 	}
 	
 }

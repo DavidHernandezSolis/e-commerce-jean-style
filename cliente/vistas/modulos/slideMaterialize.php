@@ -4,7 +4,8 @@
       <?php 
         $slideControlador =new slideControlador();
         $slide =$slideControlador->mostrarSlideControl();
-        foreach ($slide as $key => $value) {      
+        
+        foreach ($slide as $key => $value) {     
           echo '
             <li>
               <img class="responsive-img" src="'.$urlAdmin.$value["foto"].'"> 
